@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchaudio
+demucs
+matplotlib
+numpy
+torchcodec
