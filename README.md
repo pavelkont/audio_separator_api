@@ -32,12 +32,12 @@ docker-compose up --build
 
 ## API Endpoints
 
-GET / — веб-интерфейс
-GET /health — проверка статуса
-POST /separate — загрузить файл, получить стемы
-GET /audio/{job_id}/{stem} — прослушать стем
-GET /download_zip/{job_id} — скачать ZIP
-GET /spectrogram/{job_id}/{stem} — получить спектрограмму
+- GET `/` — веб-интерфейс
+- GET `/health` — проверка статуса
+- POST `/separate` — загрузить файл, получить стемы
+- GET `/audio/{job_id}/{stem}` — прослушать стем
+- GET `/download_zip/{job_id}` — скачать ZIP
+- GET `/spectrogram/{job_id}/{stem}` — получить спектрограмму
 
 ### Пример запроса (curl)
 
