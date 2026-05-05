@@ -77,17 +77,19 @@ SAR — уровень артефактов (выше лучше).
 
 ## Структура проекта
 
+```text
 .
-├── app.py                 # FastAPI приложение
-├── requirements.txt       # Зависимости
-├── Dockerfile             # Docker образ
-├── docker-compose.yml     # Docker Compose
-├── audio_separator.ipynb  # Jupyter ноутбук с оценкой качества
-├── report.docx            # Отчёт о выполненном задании
-├── uploads/               # Загруженные файлы (создается автоматически)
-├── outputs/               # Результаты разделения (создается автоматически)
-├── cache/                 # Кэш результатов (создается автоматически)
-└── README.md              # Документация
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── audio_separator.ipynb
+├── report.docx
+├── uploads/
+├── outputs/
+├── cache/
+└── README.md
+```
 
 ## Зависимости
 
